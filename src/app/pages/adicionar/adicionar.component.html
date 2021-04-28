@@ -1,0 +1,56 @@
+    
+<div>
+    <form>
+        <ul>
+            <li>
+                <label>Nombres</label><br>
+                <input type="text" required max="30"><br><br>
+            </li>
+
+            <li>
+                <label>Apellidos</label><br>
+                <input type="text" required max="30"><br><br>
+            </li>
+
+            <li>
+                <label>Generos</label>
+                <div id="gen">
+                    <input type="radio"  name="gen" id="H1" required>
+                    <label for="Hombre" class="aux">Hombre</label><br>
+                    
+                    <input type="radio" name="gen" id="M1">
+                    <label for="Mujer" class="aux">Mujer</label><br>
+                   
+                    <input type="radio" name="gen" id="O1">
+                    <label for="Otro" class="aux">Otro</label><br><br>
+                </div>
+            </li>
+
+            <li>
+                <label>Pais</label><br>
+                <select name="paises" id="paises">
+                    <option value="Select">Select</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Uruguay">Uruguay</option>
+                    <option value="Mexico">Mexico</option>
+                </select><br><br>
+            </li>
+
+            <li>
+                <label>Ciudad</label><br>
+                <input type="text" required max="30"><br><br>
+            </li>
+
+            <li>
+                <div>
+                    <button type="reset">Cancelar</button>
+                    <button class="botoncrear" type="submit">Crear</button>
+                </div>
+            </li>
+
+        </ul>
+    </form>
+</div>
